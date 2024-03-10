@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="overlay">
+    <form>
+      <div class="con">
+        <header class="head-form">
+          <h2>LOG IN</h2>
+          <p>Please login using valid username and password</p>
+        </header>
+        <br>
+        <div class="field-set">
+          <span class="input-item">
+            <i class="fa fa-user-circle"></i>
+          </span>
+          <input class="form-input" id="txt-input" type="text" placeholder="@UserName" required>
+          <br>
+          <span class="input-item">
+            <i class="fa fa-key"></i>
+          </span>
+          <input class="form-input" type="password" placeholder="Password" id="pwd" name="password" required>
+          <span>
+            <i class="fa fa-eye" aria-hidden="true" type="button" id="eye"></i>
+          </span>
+          <br>
+          <button class="log-in">Log In</button>
+        </div>
+        <div class="other">
+          <button class="btn submits frgt">Forgot Password</button>
+          <button class="btn submits signup">SIGN UP
+            <i class="fa fa-user-plus" aria-hidden="true"></i>
+          </button>
+        </div>
+      </div>
+    </form>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+
